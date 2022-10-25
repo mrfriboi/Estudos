@@ -1,0 +1,73 @@
+/* class img centralizada a tela */
+body
+{
+    margin:0;
+    background-color: #ffe0f9;
+    //background-image: url("http://www.4shared.com/photo/0Z7J4J4A/IMG_20120818_00001.html");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    //centraliza a imagem
+    background-position: center;
+}
+.div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   // margintop: 100px;
+
+}
+img
+{
+   // imagem do tamanho da tela do usuario
+  // padding: 5
+  margintop: 100px;
+   //max-width:100vh;
+   max-height:90vh;
+   //min-width:100vh;
+   min-height:90vh;
+   /* width: auto;
+   height: auto; */
+    //centraliza a imagem
+    background-position: center;
+    //imagem sem repetição
+    background-repeat: no-repeat;
+    //imagem sem rolagem
+    background-attachment: fixed;
+    //imagem cobrindo toda a tela
+    background-size: cover;
+    //centraliza a imagem
+    background-position: center;
+
+} 
+
+#button 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    border-radius: 5px;
+    color: white;
+}
+
+#botao 
+{
+background-color: pink;
+border-radius: 5px;
+//cor da fonte branca 
+color: #ffffff;
+
+}
+
+button
+{
+    color: white;
+    border-colot: red;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form class="form" action="" method="get">
+      <p>Digite o primeiro lado do triangulo: <input type="text" class="ladoA" placeholder="lado 1"> </p>
+      <p>Digite o segundo lado do triangulo: <input type="text" class="ladoB" placeholder="lado 2"> </p>
+      <p>Digite o terceiro lado do triangulo: <input type="text" class="ladoC" placeholder="lado 3"> </p>
+      <button class="enviar">Enviar</button>
+    </form>
+    <div class="borda_resultado">   
+        <button class="refazer" >Refazer</button>  
+        <p class="resultado"></p>
+    </div>
+   
+    <script src="indes.js"></script>
+</body>
+</html>
+
+<style>
+    .form{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .form{
+        border: 1px solid #000;
+        width: 300px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .ladoA, .ladoB, .ladoC{
+        border: 1px solid #000;
+        width: 100px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .refazer{
+        border: 1px solid #000;
+        width: 100px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .borda_resultado{
+        border: 1px solid #000;
+        width: 300px;
+        margin: 0 auto;
+        padding: 10px;
+        display: flow-root;
+        justify-content: center;
+        align-items: center;
+    }
